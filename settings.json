@@ -1,0 +1,62 @@
+{
+    //函数自动补全括号
+    "typescript.useCodeSnippetsOnMethodSuggest": true,
+    //字体大小
+    "editor.fontSize": 24,
+    //字体设置
+    "editor.fontFamily": "Monaco,'Source Code Pro','Microsoft YaHei',Consolas, 'Courier New', monospace",
+    //Tab键不插入空格,而是缩进
+    "editor.insertSpaces": false,
+    //可视区域自动换行
+    "editor.wordWrap": "on",
+    //编辑器滚动时候的动画
+    "editor.smoothScrolling": true,
+    //滚轮速度
+    "editor.mouseWheelScrollSensitivity": 3,
+    //输入时自动代码提示
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    //显示代码提示的延迟
+    "editor.quickSuggestionsDelay": 0,
+    //输入后自动设置行的格式
+    "editor.formatOnType": true,
+    //自动格式化粘贴的代码
+    "editor.formatOnPaste": true,
+    //ctrl缩放字体
+    "editor.mouseWheelZoom": true,
+    //空白字符显示
+    "editor.renderWhitespace": "all",
+    //突出显示当前行
+    "editor.renderLineHighlight": "all",
+    //显示折叠代码的按钮
+    "editor.showFoldingControls": "always",
+    //不允许拖动代码
+    "editor.dragAndDrop": false,
+    //窗口最大化
+    "window.newWindowDimensions": "maximized",
+    "workbench.startupEditor": "newUntitledFile",
+    //主题
+    "workbench.colorTheme": "One Dark Pro",
+    // 缩放级别
+    "window.zoomLevel": 0,
+    // 隐藏左侧按钮栏
+    "workbench.activityBar.visible": false,
+    //禁用PyLint
+    "python.linting.enabled": false,
+    //自定义代码段排列到顶部
+    "editor.snippetSuggestions": "top",
+    // 禁用eslint这傻B玩意
+    "eslint.enable": false,
+    // Python函数自动添加括号
+    "python.autoComplete.addBrackets": true,
+    // 终端光标
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "files.trimTrailingWhitespace": true,
+    // 终端类型
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontSize": 18
+}
